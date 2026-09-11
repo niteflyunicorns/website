@@ -95,36 +95,50 @@ window.projects = [
     {
         "id": "snaps",
         "name": "SNAPS Website Revamp",
-        "bkgd": "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
+        "bkgd": "assets/portfolio/SNAPSWebsite/final/0-snaps-landing.webp",
         "video": "",
         "tags": [
             "all",
             "new",
             "ui-ux"
         ],
-        "type": "UI/UX Design",
-        "role": "Design",
-        "soft": "Figma",
-        "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In Figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed. This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface. The current operational website can be accessed <a href=\"https://snaps.nau.edu/\">here<a>.",
-        "pagetype": "standard",
-        "imgs": {
-            "all": [
-                "assets/portfolio/SNAPSWebsite/0-figma-layout.webp",
-                "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
-                "assets/portfolio/SNAPSWebsite/1-about.webp",
-                "assets/portfolio/SNAPSWebsite/1-faves.webp",
-                "assets/portfolio/SNAPSWebsite/1-help.webp",
-                "assets/portfolio/SNAPSWebsite/1-home.webp",
-                "assets/portfolio/SNAPSWebsite/1-plots.webp",
-                "assets/portfolio/SNAPSWebsite/1-system.webp",
-                "assets/portfolio/SNAPSWebsite/2-about.webp",
-                "assets/portfolio/SNAPSWebsite/2-faves.webp",
-                "assets/portfolio/SNAPSWebsite/2-help.webp",
-                "assets/portfolio/SNAPSWebsite/2-home.webp",
-                "assets/portfolio/SNAPSWebsite/2-plots.webp",
-                "assets/portfolio/SNAPSWebsite/2-system.webp"
-            ]
-        }
+        "pagetype": "sections",
+        "sections": [
+            {
+                "id": "final",
+                "name": "Final Published Version",
+                "type": "UI/UX Design",
+                "role": "Designer",
+                "soft": "Figma",
+                "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In Figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed.",
+                "imgs": [
+                    "assets/portfolio/SNAPSWebsite/final/0-snaps-landing.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-about.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-faves.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-help.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-home.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-plots.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-system.webp"
+                ]
+            },
+            {
+                "id": "prototype",
+                "name": "Original Prototype",
+                "type": "UI/UX Design",
+                "role": "Designer",
+                "soft": "Figma",
+                "desc": "This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface. The current operational website can be accessed <a href=\"https://snaps.nau.edu/\">here<a>.",
+                "imgs": [
+                    "assets/portfolio/SNAPSWebsite/prototype/0-figma-layout.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-about.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-faves.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-help.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-home.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-plots.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-system.webp"
+                ]
+            }
+        ]
     },
     {
         "id": "portfolio-site",
