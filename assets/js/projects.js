@@ -459,6 +459,22 @@ window.projects = [
         }
     },
     {
+        "id": "stem-campaign",
+        "name": "Women In STEM Instagram Campaign",
+        "bkgd": "assets/portfolio/InstagramCampaign/01-wis-stats-01.webp",
+        "video": "",
+        "tags": [
+            "all",
+            "graphic-design"
+        ],
+        "type": "Graphic Design, Social Media Design, Data Visualization",
+        "role": "All",
+        "soft": "Adobe Illustrator, Photoshop",
+        "desc": "As a woman in a STEM field, this topic is incredible relevant to me. I designed a 3-part Instagram campaign detailing various types of information about women in STEM fields. This information included statistics, resources, examples, laws, and other information about the challenges women in STEM industries face, and potential solutions for these challenges. The first section, touches on the tangible data on the subject. The graphics for this section feature statistics, graphs, charts, and other visualizations to convey some of the staggering differences between women and men in STEM industries. The sectiond section touches on the social effects that women in these careers may face. This section is less data-intensive, focusing instead on stereotypes, discrimination and lack of support that women face in these fields. The final section focuses on the potential solutions moving forward. It offers resources, mentors, and examples of what outside support for women in these fields can look like.",
+        "pagetype": "standard",
+        "imgs": {}
+    },
+    {
         "id": "best-friends",
         "name": "\"Best Friends\" Short Narrative",
         "bkgd": "assets/portfolio/ShortNarrative/still1.webp",
@@ -480,6 +496,22 @@ window.projects = [
                 "assets/portfolio/ShortNarrative/storyboard3.webp"
             ]
         }
+    },
+    {
+        "id": "guitars-info",
+        "name": "Acoustic vs. Electric Guitars Infographic",
+        "bkgd": "assets/portfolio/GuitarInfographic/infographic.webp",
+        "video": "",
+        "tags": [
+            "all",
+            "graphic-design"
+        ],
+        "type": "Graphic Design, Infographic Design, Data Visualization",
+        "role": "All",
+        "soft": "Adobe Illustrator",
+        "desc": "This project was driven by the fact that I have played guitar for a very long time, and I wanted to visualize some basic differences between the two. While this infographic is not data-heavy, I focused on visual and emotional differences between the two.",
+        "pagetype": "standard",
+        "imgs": {}
     },
     {
         "id": "creative-id",
