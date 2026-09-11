@@ -38,17 +38,17 @@ window.projects = [
         "pagetype": "standard",
         "imgs": {
             "all": [
+                "assets/portfolio/DraugrSystem/PhobarStill.webp",
+                "assets/portfolio/DraugrSystem/RhyelStill.webp",
+                "assets/portfolio/DraugrSystem/RonosStill.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-eeyo.webp",
                 "assets/portfolio/DraugrSystem/draugrInterface-rhyel.webp",
                 "assets/portfolio/DraugrSystem/eeyo1.webp",
-                "assets/portfolio/DraugrSystem/PhobarStill.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-01.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-02.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-04.webp",
                 "assets/portfolio/DraugrSystem/radarGraphs-05.webp",
-                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp",
-                "assets/portfolio/DraugrSystem/RhyelStill.webp",
-                "assets/portfolio/DraugrSystem/RonosStill.webp"
+                "assets/portfolio/DraugrSystem/radarGraphs1-05.webp"
             ]
         }
     },
@@ -95,36 +95,50 @@ window.projects = [
     {
         "id": "snaps",
         "name": "SNAPS Website Revamp",
-        "bkgd": "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
+        "bkgd": "assets/portfolio/SNAPSWebsite/final/0-snaps-landing.webp",
         "video": "",
         "tags": [
             "all",
             "new",
             "ui-ux"
         ],
-        "type": "UI/UX Design",
-        "role": "Design",
-        "soft": "Figma",
-        "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In Figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed. This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface. The current operational website can be accessed <a href=\"https://snaps.nau.edu/\">here<a>.",
-        "pagetype": "standard",
-        "imgs": {
-            "all": [
-                "assets/portfolio/SNAPSWebsite/0-figma-layout.webp",
-                "assets/portfolio/SNAPSWebsite/0-snaps-landing.webp",
-                "assets/portfolio/SNAPSWebsite/1-about.webp",
-                "assets/portfolio/SNAPSWebsite/1-faves.webp",
-                "assets/portfolio/SNAPSWebsite/1-help.webp",
-                "assets/portfolio/SNAPSWebsite/1-home.webp",
-                "assets/portfolio/SNAPSWebsite/1-plots.webp",
-                "assets/portfolio/SNAPSWebsite/1-system.webp",
-                "assets/portfolio/SNAPSWebsite/2-about.webp",
-                "assets/portfolio/SNAPSWebsite/2-faves.webp",
-                "assets/portfolio/SNAPSWebsite/2-help.webp",
-                "assets/portfolio/SNAPSWebsite/2-home.webp",
-                "assets/portfolio/SNAPSWebsite/2-plots.webp",
-                "assets/portfolio/SNAPSWebsite/2-system.webp"
-            ]
-        }
+        "pagetype": "sections",
+        "sections": [
+            {
+                "id": "final",
+                "name": "Final Published Version",
+                "type": "UI/UX Design",
+                "role": "Designer",
+                "soft": "Figma",
+                "desc": "I undertook this project as part of my participation in the SNAPS research team. I took the original website, and revamped it for the new era in the SNAPS project. This effort was influenced by the use cases and needs of not only the SNAPS team, but also of the greater user base. The design went through several iterations before landing on the final design, which was then developed by another member of the SNAPS team. In Figma, not only did I layout the design, but I also prototyped the design, which could then be exported and serve as a starting point for the developer. In addition to the design, I used Inkscape to design icons and supporting graphics where needed.",
+                "imgs": [
+                    "assets/portfolio/SNAPSWebsite/final/0-snaps-landing.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-about.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-faves.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-help.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-home.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-plots.webp",
+                    "assets/portfolio/SNAPSWebsite/final/2-system.webp"
+                ]
+            },
+            {
+                "id": "prototype",
+                "name": "Original Prototype",
+                "type": "UI/UX Design",
+                "role": "Designer",
+                "soft": "Figma",
+                "desc": "This website focuses on easy data access, customization of queries, and usability, all wrapped up in a soft, modern, dark-theme-forward interface. The current operational website can be accessed <a href=\"https://snaps.nau.edu/\">here<a>.",
+                "imgs": [
+                    "assets/portfolio/SNAPSWebsite/prototype/0-figma-layout.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-about.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-faves.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-help.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-home.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-plots.webp",
+                    "assets/portfolio/SNAPSWebsite/prototype/1-system.webp"
+                ]
+            }
+        ]
     },
     {
         "id": "portfolio-site",
@@ -286,9 +300,9 @@ window.projects = [
                 "soft": "Adobe Illustrator",
                 "desc": "The original TXG Logo was given to me with the request to revamp/redesign the logo to be more modern. The colors are from the original logo but I redesigned the structure and style of the logo. I incorporated additional emphasis of \"Tribal\" and \"Group\" by sizing them up slightly from the other text. The stylized windrose on the right represents the group's work in data management and analysis, while incorporating an environmental element to the logo.",
                 "imgs": [
+                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp",
                     "assets/portfolio/Logos/TXG/txg-sticker.webp",
-                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp",
-                    "assets/portfolio/Logos/TXG/TXGLogo2-rgb.webp"
+                    "assets/portfolio/Logos/TXG/txgLogo-grey.webp"
                 ]
             }
         ]
@@ -309,6 +323,8 @@ window.projects = [
         "pagetype": "standard",
         "imgs": {
             "all": [
+                "assets/portfolio/MusicFest/MusicFestStoryboard(12).webp",
+                "assets/portfolio/MusicFest/MusicFestStoryboard(22).webp",
                 "assets/portfolio/MusicFest/still1.webp"
             ]
         }
@@ -360,8 +376,8 @@ window.projects = [
                 "soft": "Adobe Illustrator, Photoshop, Adobe Indesign",
                 "desc": "Prickly Pete's was a brand development and marketing project that I developed from scratch. The idea behind Prickly Pete's was to be quirky and fun. Prickly Pete's is a food truck that serves classic diner food with a Southwestern twist. Pete, the prickly pear mascot loves everything about the Southwest, but especially the wonderful food.",
                 "imgs": [
-                    "assets/portfolio/PricklyPetes/FoodTruck/Body Type Design v2_Banner copy 2.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/BW Final Logo-04.webp",
+                    "assets/portfolio/PricklyPetes/FoodTruck/Body Type Design v2_Banner copy 2.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Final Logo-04.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/Food Truck Mock-Up Final.webp",
                     "assets/portfolio/PricklyPetes/FoodTruck/foodTruckBranding-s21_Page_8.webp",
@@ -459,6 +475,53 @@ window.projects = [
         }
     },
     {
+        "id": "stem-campaign",
+        "name": "Women In STEM Instagram Campaign",
+        "bkgd": "assets/portfolio/InstagramCampaign/01-wis-stats-01.webp",
+        "video": "",
+        "tags": [
+            "all",
+            "graphic-design"
+        ],
+        "type": "Graphic Design, Social Media Design, Data Visualization",
+        "role": "All",
+        "soft": "Adobe Illustrator, Photoshop",
+        "desc": "As a woman in a STEM field, this topic is incredible relevant to me. I designed a 3-part Instagram campaign detailing various types of information about women in STEM fields. This information included statistics, resources, examples, laws, and other information about the challenges women in STEM industries face, and potential solutions for these challenges. The first section, touches on the tangible data on the subject. The graphics for this section feature statistics, graphs, charts, and other visualizations to convey some of the staggering differences between women and men in STEM industries. The sectiond section touches on the social effects that women in these careers may face. This section is less data-intensive, focusing instead on stereotypes, discrimination and lack of support that women face in these fields. The final section focuses on the potential solutions moving forward. It offers resources, mentors, and examples of what outside support for women in these fields can look like.",
+        "pagetype": "standard",
+        "imgs": {
+            "all": [
+                "assets/portfolio/InstagramCampaign/01-wis-stats-01.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-02.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-03.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-04.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-05.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-06.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-07.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-08.webp",
+                "assets/portfolio/InstagramCampaign/01-wis-stats-09.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-01.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-02.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-03.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-04.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-05.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-06.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-07.webp",
+                "assets/portfolio/InstagramCampaign/02-wis-social-08.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-01.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-02.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-03.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-04.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-05.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-06.webp",
+                "assets/portfolio/InstagramCampaign/03-wis-solutions-07.webp",
+                "assets/portfolio/InstagramCampaign/Instagram_template2.webp",
+                "assets/portfolio/InstagramCampaign/wis-solutions-08.webp",
+                "assets/portfolio/InstagramCampaign/wis-solutions-09.webp",
+                "assets/portfolio/InstagramCampaign/wis-solutions-10.webp"
+            ]
+        }
+    },
+    {
         "id": "best-friends",
         "name": "\"Best Friends\" Short Narrative",
         "bkgd": "assets/portfolio/ShortNarrative/still1.webp",
@@ -478,6 +541,31 @@ window.projects = [
                 "assets/portfolio/ShortNarrative/storyboard1.webp",
                 "assets/portfolio/ShortNarrative/storyboard2.webp",
                 "assets/portfolio/ShortNarrative/storyboard3.webp"
+            ]
+        }
+    },
+    {
+        "id": "guitars-info",
+        "name": "Acoustic vs. Electric Guitars Infographic",
+        "bkgd": "assets/portfolio/GuitarInfographic/infographic.webp",
+        "video": "",
+        "tags": [
+            "all",
+            "graphic-design"
+        ],
+        "type": "Graphic Design, Infographic Design, Data Visualization",
+        "role": "All",
+        "soft": "Adobe Illustrator",
+        "desc": "This project was driven by the fact that I have played guitar for a very long time, and I wanted to visualize some basic differences between the two. While this infographic is not data-heavy, I focused on visual and emotional differences between the two.",
+        "pagetype": "standard",
+        "imgs": {
+            "all": [
+                "assets/portfolio/GuitarInfographic/infographic.webp",
+                "assets/portfolio/GuitarInfographic/sketch1.webp",
+                "assets/portfolio/GuitarInfographic/sketch2.webp",
+                "assets/portfolio/GuitarInfographic/sketch3.webp",
+                "assets/portfolio/GuitarInfographic/sketch4.webp",
+                "assets/portfolio/GuitarInfographic/sketch5.webp"
             ]
         }
     },
